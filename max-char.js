@@ -15,6 +15,7 @@ function maxChar(str) {
     charLength[a] > charLength[b] ? a : b
   );
 }
+console.log(maxChar("aabbccccccd"))
 
 function maxChar2(str) {
   const charMap = {};
